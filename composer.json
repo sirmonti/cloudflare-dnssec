@@ -1,0 +1,25 @@
+{
+    "name": "sirmonti/cloudflare-dnssec",
+    "description": "DNSSEC support for Cloudflare PHP",
+    "keywords": ["cloudflare","dnssec"],
+    "homepage": "https://github.com/sirmonti/cloudflare-dnssec",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Francisco Monteagudo",
+            "email": "francisco@monteagudo.net",
+            "homepage": "https://www.monteagudo.net/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "classmap": ["src"]
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2.5",
+        "cloudflare/sdk": "^1.3"
+    }
+
+}
